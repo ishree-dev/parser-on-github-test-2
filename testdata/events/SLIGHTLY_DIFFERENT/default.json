@@ -1,0 +1,29 @@
+{
+  "events_for_log_entry": [
+    {
+      "events": [
+        {
+          "timestamp": "2026-01-28T14:00:00Z",
+          "idm": {
+            "read_only_udm": {
+              "metadata": {
+                "event_timestamp": "2026-01-28T14:00:00Z",
+                "event_type": "GENERIC_EVENT",
+                "vendor_name": "SimuCorp",
+                "product_name": "DeviceLog",
+                "description": "Test log from alt repo",
+                "log_type": "CISCO_SWITCH"
+              },
+              "principal": {
+                "hostname": "alt-github-test-host",
+                "asset": {
+                  "hostname": "alt-github-test-host"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
